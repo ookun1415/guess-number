@@ -1,6 +1,9 @@
 import random #import載入 random 模組-隨機
-
-r = random.randint(1,100) #randint 隨機整數(random+int)
+start = input('請輸入隨機數字範圍開始值')
+end = input('請輸入隨機數字範圍結束值')
+start = int(start)
+end = int(end)
+r = random.randint(start,end) #randint 隨機整數(random+int)
 r = int(r)
 count = 0 #count 計數
 while True:
